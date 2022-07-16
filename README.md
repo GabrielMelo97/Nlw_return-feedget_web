@@ -31,6 +31,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 https://nlw-return-feedget-web-murex.vercel.app/  <br><br> ou no local:
 
 - Clone o repositório
+- Entre na pasta clonada e execute o comando pelo terminal `npm install` ou `yarn` para instalar as dependências do projeto.
 - Acesse `server/prisma/schema.prisma` e altere dentro de "datasource db" o provider = "postgresql" para provider = "sqlite" e salve
 - Inicie o projeto pelo terminal entrando na pasta `/web` e executando o comando `npm run dev`
 - Inicie o servidor pelo terminal entrando na pasta `/server` e executando o comando `npm run dev`
